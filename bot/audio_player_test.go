@@ -4,10 +4,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/dueros/bot-sdk-go/bot/data"
-	"github.com/dueros/bot-sdk-go/bot/model"
-	"github.com/dueros/bot-sdk-go/bot/util"
 	"log"
+
+	"github.com/longqimin/bot-sdk-go/bot/data"
+	"github.com/longqimin/bot-sdk-go/bot/model"
+	"github.com/longqimin/bot-sdk-go/bot/util"
 )
 
 func TestOnAudioPlaybackStarted(t *testing.T) {

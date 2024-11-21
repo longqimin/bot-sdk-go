@@ -1,7 +1,7 @@
 package directive
 
 import (
-	"github.com/satori/go.uuid"
+	uuid "github.com/satori/go.uuid"
 )
 
 type BaseDirective struct {
@@ -9,5 +9,6 @@ type BaseDirective struct {
 }
 
 func (this *BaseDirective) GenToken() string {
-	return uuid.Must(uuid.NewV4()).String()
+	var err error
+	return uuid.Must(uuid.NewV4(), err).String()
 }

@@ -1,7 +1,7 @@
 package video_player
 
 import (
-	"github.com/dueros/bot-sdk-go/bot/directive"
+	"github.com/longqimin/bot-sdk-go/bot/directive"
 )
 
 type StopDirective struct {
